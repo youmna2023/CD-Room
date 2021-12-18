@@ -1,7 +1,8 @@
 # CD-Room
 Arduino Project
 
-Abstract:
+Abstract: 
+
   The most significant issues which face Egypt over the coming years are tied mostly to securing and increasing more renewable sources equivalent to the country's population and eliminating pollution. Egypt's population increases disproportionately to available resources. This results in growing need for energy production. Almost all the processes associated with energy production increase catastrophic emissions to the air which is a major reason for 'global warming', increasing contamination in water and damaging aquatic life; furthermore, contaminated water used in irrigation affects harmfully on the soil. Increasing the use of alternative energy will contribute to making a massive transition from a mere third-world country to a developed country. Alternative technology targets more than 20% of Egypt's power generation. As technologies are used for numerous different purposes whether to achieve high efficiency, reduce pollution, or make work easier. The best solution is increasing the use of alternative energy facilitated by communication and technology. Although the Egyptian national railway is one of the largest economic institutions in Egypt and the Arab world, train stations are consumptive sources of Egypt's total power generation. CD Disc Generator, a simpler model of a turbine, is the promising future of electric generation. A simple press on CD-ROM can produce electricity for lighting a LED. Similar to the CD-ROMs technique, the trains' coil springs pressure can generate enough power for lighting the whole system either in stations or inside trains themselves. Design requirements the prototype should meet to be successful are producing high voltage and power and achieving high efficiency.
  
 Methods:
