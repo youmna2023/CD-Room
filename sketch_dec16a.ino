@@ -1,29 +1,13 @@
-float Current;
-float Voltage;
-float Power;
+float Current=A4;
+float Voltage=A5;
 void setup(){    
-pinMode (A4, INPUT);
-pinMode (A5, INPUT);
+pinMode (Current, INPUT);
+pinMode (Voltage, INPUT);
 Serial.begin(9600);}
 void loop(){ 
-Voltage= analogRead (A4)/41.2;   
-Current= analogRead (A5)/183.3;
-Power=Voltage*Current;
-// Voltage
-Serial.print ("Voltage=  ");  
-Serial.print (Voltage);    
-Serial.print (" V");          
-Serial.print ("\t");          
-
-// Current 
-Serial.print ("Current=  ");  
-Serial.print (Current);       
-Serial.println (" A");        
-
-//Power
-Serial.print ("Power=  ");    
-Serial.print (Power);        
-Serial.println (" w");         
-Serial.print ("\t");          
+Voltage= analogRead (Voltage)/41.2;   
+Current= analogRead (Current)/183.3;
+Serial.print ("Voltage=  ");  Serial.print (Voltage);     Serial.print ("\n");           
+Serial.print ("Current=  ");  Serial.print (Current);    Serial.print ("\n");            
 delay(1000);
 }
